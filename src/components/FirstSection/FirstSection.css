@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap");
+
+.first-section {
+  background-color: black;
+  text-align: center;
+}
+.first-section img {
+  height: 1080px;
+  width: 1920px;
+  opacity: 20%;
+}
+
+.small-title {
+  font-size: 15px;
+  font-family: "Gilda Display", serif;
+  color: white;
+  letter-spacing: 1px;
+}
+.title-tag {
+  font-size: 80px;
+  font-family: "Gilda Display", serif;
+  color: white;
+  letter-spacing: 1px;
+}
+.room-suits-btn {
+  font-family: "Gilda Display", serif;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 9px;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 600px) {
+  .first-section img {
+    width: 366px;
+    height: 500px;
+  }
+  .title-tag {
+    width: 300px;
+    font-size: 30px;
+    letter-spacing: 0px;
+  }
+  .calender {
+    margin: 0;
+    width: 366px;
+  }
+  .information-text {
+    padding: 0;
+  }
+}

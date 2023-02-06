@@ -1,0 +1,41 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 500px;
+  align-items: center;
+  justify-items: center;
+  margin-left: 0 auto;
+}
+.phone {
+  display: block;
+}
+.connect {
+  display: block;
+}
+.subscribe-part {
+  display: block;
+}
+
+.icon {
+  font-size: 25px;
+  margin-right: 5px;
+}
+.subscribe-btn {
+  background-color: burlywood;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 7px 5px;
+}
+@media only screen and (max-width: 600px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: start;
+    align-content: space-evenly;
+    padding-left: 30px;
+  }
+}

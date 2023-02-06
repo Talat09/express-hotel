@@ -1,0 +1,16 @@
+.room {
+  width: 600px;
+  margin-bottom: 20px;
+}
+.img {
+  width: 600px;
+  height: 418px;
+}
+@media only screen and (max-width: 600px) {
+  .room {
+    width: 366px;
+  }
+  .img {
+    width: 366px;
+  }
+}
