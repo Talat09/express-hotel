@@ -5,16 +5,21 @@ import { DateRange } from "react-date-range";
 import "react-date-range/dist/styles.css"; // main css file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import { format } from "date-fns";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { AuthContext } from "../../context/AuthProvider/AuthProvider";
+
 const FirstSection = () => {
   const [openDate, setOpenDate] = useState(false);
-  const [date, setDate] = useState([
-    {
-      startDate: new Date(),
-      endDate: new Date(),
-      key: "selection",
-    },
-  ]);
+  const { date, setDate } = useContext(AuthContext);
+  // const [date, setDate] = useState([
+  //   {
+  //     startDate: new Date(),
+  //     endDate: new Date(),
+  //     key: "selection",
+  //   },
+  // ]);
+  console.log(date);
+
   return (
     <div className="first-section position-relative">
       <img src={bg} alt="" />
@@ -32,10 +37,10 @@ const FirstSection = () => {
             <span className="lh-lg gx-3 fs-3 text">
               <FaCalendar className="me-2"></FaCalendar>
               {`${format(
-                date[0].startDate,
+                date[0]?.startDate,
 
                 "MM/dd/yyyy"
-              )} to ${format(date[0].endDate, "MM/dd/yyyy")}`}
+              )} to ${format(date[0]?.endDate, "MM/dd/yyyy")}`}
             </span>
           </div>
           {openDate && (

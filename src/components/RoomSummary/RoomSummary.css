@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+  .room-details {
+    margin: 20px;
+    width: 600px;
+  }
+  .mobile-summary {
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    border: none;
+  }
+  /* .image-room {
+    width: 480px;
+  } */
+  .mobile-summary p {
+    font-size: 20px;
+  }
+}

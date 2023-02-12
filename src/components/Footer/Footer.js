@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="bg-dark text-white footer">
+    <div className="bg-dark text-white footer ">
       <div className="phone">
         <p>Phone Support</p>
         <p>24 HOURS A DAY</p>
