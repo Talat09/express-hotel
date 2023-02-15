@@ -1,6 +1,7 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  width: 1903px;
   height: 500px;
   align-items: center;
   justify-items: center;
@@ -32,6 +33,7 @@
 }
 @media only screen and (max-width: 600px) {
   .footer {
+    width: 390px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: start;

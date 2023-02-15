@@ -7,7 +7,7 @@ const Rooms = () => {
   const [rooms, setRooms] = useState([]);
   useTitle("Rooms");
   useEffect(() => {
-    fetch("https://express-server-kjr4kb1az-talat09.vercel.app/rooms")
+    fetch("https://express-server-gules.vercel.app/rooms")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

@@ -1,0 +1,25 @@
+.bestCity {
+  background-color: black;
+}
+.bestCity img {
+  height: 656px;
+  width: 1903px;
+  opacity: 90%;
+}
+.best-text {
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  right: 7%;
+  background-color: antiquewhite;
+  padding: 20px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .bestCity img {
+    width: 366px;
+    height: 500px;
+  }
+}

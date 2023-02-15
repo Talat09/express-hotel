@@ -22,7 +22,7 @@ const Header = () => {
       expand="lg"
       bg="dark"
       variant="dark"
-      className="justify-content-space-between shadow-lg bg-body-tertiary "
+      className="justify-content-space-between shadow-lg bg-body-tertiary nav-custom "
     >
       <Container>
         <Navbar.Brand>

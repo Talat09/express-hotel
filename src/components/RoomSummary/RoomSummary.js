@@ -10,7 +10,7 @@ const RoomSummary = () => {
   useTitle("Room");
   const [room, setRoom] = useState({});
   useEffect(() => {
-    const url = `https://express-server-kjr4kb1az-talat09.vercel.app/room/${params.id}`;
+    const url = `https://express-server-gules.vercel.app/room/${params.id}`;
     console.log(url);
     // console.log(url);
     fetch(url)

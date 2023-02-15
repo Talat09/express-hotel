@@ -1,5 +1,6 @@
 import React from "react";
 import useTitle from "../../hooks/useTitle";
+import BestCity from "../BestCity/BestCity";
 
 import FirstSection from "../FirstSection/FirstSection";
 import Rooms from "../Rooms/Rooms";
@@ -12,6 +13,7 @@ const Home = () => {
     <div>
       <FirstSection></FirstSection>
       <Rooms></Rooms>
+      <BestCity></BestCity>
     </div>
   );
 };
